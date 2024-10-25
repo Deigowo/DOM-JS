@@ -128,7 +128,7 @@ setInterval(() => {
     if (y > 20) y = 1
     else if (y < 1) y = 20
 
-}, 100)
+}, 50)
 
 document.querySelector('body')
     .addEventListener('keydown', e => {
